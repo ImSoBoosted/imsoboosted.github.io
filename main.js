@@ -10,11 +10,11 @@ let eternal_tier_probabilities = { 3: 0, 4: 0.29, 5: 0.45, 6: 0.25, 7: 0.01 }
 let powerful_tier_probabilities_non_adv = { 1: 0.2, 2: 0.3, 3: 0.36, 4: 0.14, 5: 0 }
 let eternal_tier_probabilities_non_adv = { 1: 0, 2: 0.29, 3: 0.45, 4: 0.25, 5: 0.01 }
 
-var stat_per_tier = { "140-159": 8, "160-179": 9, "180-199": 10, "200-219": 11 }
-let combo_stat_per_tier = { "140-159": 4, "160-179": 5, "180-199": 5, "200-219": 6 }
+var stat_per_tier = { "140-159": 8, "160-179": 9, "180-199": 10, "200-219": 11, "250": 12 }
+let combo_stat_per_tier = { "140-159": 4, "160-179": 5, "180-199": 5, "200-219": 6, "250": 7 }
 var stat_equivalences = { "all_stat": 8, "secondary_stat": 0.1, "attack": 3 }
 
-let hp_stat_per_tier = { "140-149": 420, "150-159": 450, "160-169": 480, "170-179": 510, "180-189": 540, "190-199": 570, "200-209": 600, "210-219": 630 }
+let hp_stat_per_tier = { "140-149": 420, "150-159": 450, "160-169": 480, "170-179": 510, "180-189": 540, "190-199": 570, "200-209": 600, "210-219": 630, "250": 660 }
 
 function factorial(number) {
     var value = number;
